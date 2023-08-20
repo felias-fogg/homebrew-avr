@@ -13,8 +13,6 @@ class AvrGdb < Formula
 
   depends_on "avr-binutils"
 
-  depends_on "python@3.9"
-
   uses_from_macos "expat"
   uses_from_macos "ncurses"
 
@@ -33,7 +31,6 @@ class AvrGdb < Formula
       --disable-install-libbfd
       --disable-install-libiberty
 
-      --with-python=#{Formula["python@3.9"].opt_bin}/python3
     ]
 
     mkdir "build" do
