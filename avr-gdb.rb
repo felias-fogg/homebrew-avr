@@ -4,12 +4,12 @@ class AvrGdb < Formula
 
   url "https://ftp.gnu.org/gnu/gdb/gdb-12.1.tar.xz"
   mirror "https://ftpmirror.gnu.org/gdb/gdb-12.1.tar.xz"
-  sha256 "aaa1223d534c9b700a8bec952d9748ee1977513f178727e1bee520ee000b4f29"
+  sha256 "0e1793bf8f2b54d53f46dea84ccfd446f48f81b297b28c4f7fc017b818d69fed"
 
-  #bottle do
+  # bottle do
   #  root_url "https://github.com/osx-cross/homebrew-avr/releases/download/avr-gdb-10.1"
   #  sha256 catalina: "f922c47325dca55abf04a7af4000595793727d3e0ce495b452f672e5ac2e8aa0"
-  #end
+  # end
 
   depends_on "avr-binutils"
 
